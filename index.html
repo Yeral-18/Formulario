@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulario</title>
+</head>
+<body>
+<div id="div-books">
+    <img src="img/books.png" class="books">
+</div>
+<section>
+    <form id="myForm">
+        <h1>Ingresa tus datos</h1>
+        <div class="form-group">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <span id="nombreError" class="error"></span>
+        </div>
+        
+        <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+            <br>
+            <span id="correoError" class="error"></span>
+        </div>
+    
+        <div class="form-group">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            <br>
+            <span id="telefonoError" class="error"></span>
+        </div>
+    
+        <div class="form-group">
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+        </div>
+    
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+<div id="div-girl">
+    <img src="img/girl.png" class="girl">
+</div>
+    
+      <script src="index.js"></script>
+</body>
+</html>
